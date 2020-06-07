@@ -1,0 +1,38 @@
+<?php
+include ('connect.php');
+include 'header_main_page.php'; 
+$query="SELECT * from tblproducts WHERE productInStock='Y' ORDER BY productId DESC";
+?>
+
+
+	<div class="breadcrumbs">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<p class="bread"><span><a href="Home.html">Home</a></span> / <span>Product</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="website-intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<div class="productinfo text-center">
+			<a href="product_details.php?id='.$row["productId"].'"><img src="uploads/'.$row["productImage"].'" alt=""></a>
+			<h5>PKR '.$row["productPrice"].'</h5>
+			<p>'.$row["productName"].'</p>
+			<a href="product_details.php?id='.$row["productId"].'" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Product Details</a>
+		</div>
+	</div>
+
+	<?php include 'footer_main_page.php';?>
+	</body>
+</html>

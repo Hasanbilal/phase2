@@ -1,0 +1,92 @@
+div#heading {
+    text-align: center !important;
+    text-decoration-line: underline !important;
+}
+.prod {
+    width: 30%;
+}
+.pro {
+    width: 100%;
+    display: inline-block;
+}
+.prod a img {
+    width: 206px !important;
+    height: 133px !important;
+}
+.prod h5 {
+    margin: 15px 0 0 0 !important;
+}
+.prod p {
+    margin: 0px !important;
+}
+.prod {
+    width: 31%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 5px;
+    border-radius: 3px;
+    padding: 4px 3px;
+    height: 240px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+}
+.text-md-right a {
+    padding: 5px 0px !important;
+    font-size: 28px !important;
+}
+.pro img {
+    width: 100%;
+    height: 100% !important;
+}
+.prodi {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 5px;
+    border-radius: 3px;
+    float: left;
+    padding: 4px 3px;
+    height: 240px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+}
+.details {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    margin: 30px 0px 20px 10px !important;
+}
+
+.details h2 {
+    font-size: 22px;
+    margin-bottom: 0 !important;
+    line-height: 6px;
+}
+.details h3 {
+    margin-bottom: 0 !important;
+    font-size: 20px;
+}
+.details p {
+    margin-bottom: 5px;
+}
+.adqb {
+    width: 100%;
+    margin: 27px 0 !important;
+    height: 100px !important;
+}
+.adqb .ad {
+    float: left;
+    line-height: 3px;
+}
+.adqb .qb {
+    float: right;
+}
+input#inp {
+    height: 30px !important;
+    border-radius: 10px;
+    width: 80px;
+    padding: 0 4px !important;
+    border: 1px solid lightgray;
+}
+button.btn.btn-fefault.cart {
+    height: 32px !important;
+    padding: 6px 11px !important;
+}
